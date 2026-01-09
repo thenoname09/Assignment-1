@@ -1,5 +1,6 @@
 *{margin: 0;
   padding: 0;
+   box-sizing: border-box;
 }
 .inter- {
   font-family: "Inter", sans-serif;
@@ -203,4 +204,58 @@ nav img{
     width: 274px;
     text-align: center;
     
+}
+
+#Brain-Section{
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    
+}
+
+.list-description {
+text-align: left;
+
+
+}
+.list-description p img{
+vertical-align: middle;
+    text-align:center;
+    place-items: center;
+    gap: 5px;
+}
+
+.list-description p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #001931;
+    font-weight: 500;
+
+
+}
+.text-container{
+
+    width: 700px;
+}
+.text-container .titel{
+    font-size: 16px;
+    color: #469165;
+    line-height: 20px;
+    margin-bottom: 16px;
+    
+}
+
+.text-container h2{ 
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.Description{
+    color:#627382;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 40px;
 }
