@@ -52,7 +52,11 @@ nav img{
     background-image: url(../assets/hero-bg.png);
     text-align: center;
     background-size: cover;
-    margin: 0 auto
+    
+    background-position: center ;
+    
+    /* width: 100%; */
+
     
 
 }
@@ -119,4 +123,84 @@ nav img{
     
     place-items: center;
     gap: 10px;
+}
+
+
+#Notes-Section{
+    text-align: center;
+    
+    padding-left: 120px ;
+    padding-right:120px  ;
+  
+    text-align: center;
+    background-color: #FBFBFB;
+    
+
+   
+}
+
+.Notes-about h2{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 50px;
+    color: #001931;
+    
+}
+.Notes-about p{
+    line-height: 20px;
+    font-size:16px ;
+    color:#627382 ;
+    padding-top: 16px;
+}
+.Notes-card-container{
+    /* border: red solid 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    /* padding-left: 120px ;
+    padding-right:120px  ; */
+
+    gap: 24px;
+
+    
+}
+.Notes-card-container .Notes-card{
+    /* border: 1px solid red; */
+    padding: 69.5px 24px  ;
+    background-color: #FFFFFF;
+ /* background-color: #68c400; */
+    border-radius: 8px;
+    margin-top: 44px;
+    box-shadow: 0 0 8px 0 #0000000F;
+    width: 322px;
+
+    height: 300px;
+    margin-bottom: 120px;
+
+}
+
+.Notes-card img{
+    
+    background-color: #F95555;
+   
+    padding: 14px 13px 13px 13px;
+    border-radius: 50%;
+   
+}
+.Notes-card h4{
+    font-size: 24px;
+    color: #001931;
+    padding: 16px;
+    /* margin: 16px; */
+
+}
+.Notes-card p{
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+    width: 274px;
+    text-align: center;
+    
 }
