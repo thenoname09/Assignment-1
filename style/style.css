@@ -57,7 +57,7 @@ nav img{
 
  
 #hero{
-    background-image: url(../assets/hero-bg.png);
+    background-image: url(../image/hero-bg.png);
     text-align: center;
     background-size: cover;
     
@@ -127,6 +127,7 @@ nav img{
     border-radius: 50px;
     border: none;
     width: 229px;
+     cursor: pointer;
 
 }
 .btn-img  {
